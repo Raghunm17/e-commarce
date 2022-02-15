@@ -1,0 +1,7 @@
+com\opencart\PageObjects\BaseClass.class
+com\opencart\PageObjects\LoginPage.class
+com\opencart\Utilities\BrowserFactory.class
+com\opencart\TestCases\LoginTestCRM.class
+com\opencart\Utilities\ConfigDataProvider.class
+com\opencart\Utilities\Helper.class
+com\opencart\Utilities\ExcelDataProvider.class
