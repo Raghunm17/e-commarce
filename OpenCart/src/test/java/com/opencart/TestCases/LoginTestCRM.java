@@ -32,7 +32,6 @@ public class LoginTestCRM extends BaseClass{
 		
 		logger.fail("Login failed");
 
-
 	}
 */
 }
