@@ -19,7 +19,7 @@ public class Helper {
 		
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
-		String screenshotPath=System.getProperty("user,dir")+ "/screenshots/freeCRM _"  + getCurrentDateTime() +  ".png";
+		String screenshotPath=System.getProperty("user,dir")+ "/screenshots/Deltage _"  + getCurrentDateTime() +  ".png";
 		
 		try {
 			FileHandler.copy(src, new File(screenshotPath));

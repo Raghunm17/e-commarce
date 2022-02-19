@@ -17,7 +17,7 @@ public class LoginPage {
 	@FindBy(xpath="//a[@id='logoutLink']")WebElement logOutButton;
 	
 	
-    public void loginToCRM(String ussernameApplication, String passwordApplication) {
+    public void loginToDeltage(String ussernameApplication, String passwordApplication) {
     	try {
     		Thread.sleep(2000);
     	}catch(Exception e) {
