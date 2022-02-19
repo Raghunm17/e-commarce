@@ -28,7 +28,7 @@ public class TC_001_LoginPage extends BaseClass{
 	/*@Test(priority=2)
 	public void loginApp1() {
 		
-		logger=report.createTest("Logout to CRM");
+		logger=report.createTest("Logout to deltage");
 		
 		logger.fail("Login failed");
 
