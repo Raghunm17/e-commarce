@@ -14,7 +14,7 @@ public class LoginPage {
 	@FindBy(name="pwd")WebElement pass;
 	@FindBy(xpath="//a[@id='loginButton']")WebElement loginButton;
 	
-	@FindBy(xpath="//a[@id='logoutLink']")WebElement logOutButton;
+	@FindBy(xpath=("//a[@class='logout']"))WebElement logOutButton;
 	
 	
     public void loginToDeltage(String ussernameApplication, String passwordApplication) {
@@ -33,6 +33,9 @@ public class LoginPage {
     	logOutButton.click();
 	
 	}
+
+
+
 	
 /*
 	public void setUserName(String ussernameApplication){

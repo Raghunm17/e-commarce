@@ -19,7 +19,8 @@ public class TC_001_LoginPage extends BaseClass{
 		
 		logger.info("Starting Application");
 		
-		loginPage.loginToDeltage(excel.getStringData("Login", 1, 0),excel.getStringData("Login", 1, 1));
+		loginPage.loginToDeltage(excel.getStringData("Login", 0, 1),excel.getStringData("Login", 1, 1));
+	
 		
 		logger.pass("Login Success");
 
