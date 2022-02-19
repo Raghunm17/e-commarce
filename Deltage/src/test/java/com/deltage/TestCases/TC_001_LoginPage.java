@@ -1,9 +1,9 @@
-package com.opencart.TestCases;
+package com.deltage.TestCases;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-import com.opencart.PageObjects.BaseClass;
-import com.opencart.PageObjects.LoginPage;
+import com.deltage.PageObjects.BaseClass;
+import com.deltage.PageObjects.LoginPage;
 
 
 

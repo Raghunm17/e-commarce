@@ -1,4 +1,4 @@
-package com.opencart.PageObjects;
+package com.deltage.PageObjects;
 
 import java.io.File;
 import java.io.IOException;
@@ -16,10 +16,10 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.opencart.Utilities.BrowserFactory;
-import com.opencart.Utilities.ConfigDataProvider;
-import com.opencart.Utilities.ExcelDataProvider;
-import com.opencart.Utilities.Helper;
+import com.deltage.Utilities.BrowserFactory;
+import com.deltage.Utilities.ConfigDataProvider;
+import com.deltage.Utilities.ExcelDataProvider;
+import com.deltage.Utilities.Helper;
 
 
 public class BaseClass {
