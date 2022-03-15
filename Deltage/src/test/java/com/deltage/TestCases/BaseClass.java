@@ -46,12 +46,12 @@ public class BaseClass {
 	
 	@Parameters({"browser","urlToBeTested"})
 	@BeforeClass
-	public void setup(String browser, String url){
+	public void setup(String browser, String urlToBeTested){
 		
 		Reporter.log("Trying to start Browser and getting application ready", true);
 
-		driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getURL());
-		//driver = BrowserFactory.startApplication(driver, browser, urlToBeTested);
+		//driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getURL());
+		driver = BrowserFactory.startApplication(driver, browser, urlToBeTested);
 		
 		Reporter.log("Browser and Applicatin is up and Running", true);
 
