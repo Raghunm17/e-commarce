@@ -1,4 +1,4 @@
-package com.deltage.PageObjects;
+package com.deltage.TestCases;
 
 import java.io.File;
 import java.io.IOException;

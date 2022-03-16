@@ -3,15 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.opencart.TestCases.TC_001_LoginPage">
+      <class name="com.deltage.TestCases.TC_001_LoginPage">
         <methods>
-          <include name="setupSuit"/>
           <include name="setup"/>
-          <include name="teardownMethod"/>
-          <include name="teardown"/>
           <include name="loginApp"/>
+          <include name="teardown"/>
+          <include name="setupSuit"/>
+          <include name="teardownMethod"/>
         </methods>
-      </class> <!-- com.opencart.TestCases.TC_001_LoginPage -->
+      </class> <!-- com.deltage.TestCases.TC_001_LoginPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -94,14 +94,15 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M5</version>
         <configuration>
-          <suiteXmlFiles>
+         <suiteXmlFiles>
             <suiteXmlFile>${xmlFiles}</suiteXmlFile>
-          </suiteXmlFiles>
+         </suiteXmlFiles>
 
             <systemPropertyVariables>
             <executeBrowser>${browser}</executeBrowser>.
             <appURL>${urlToBeTested}</appURL>
             </systemPropertyVariables>
+    
         </configuration>
        </plugin>       
 
